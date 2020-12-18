@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,		
+		"esModuleInterop": true,
+		"lib": [
+      "es2017",
+    ],
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"noEmitOnError": false,
+		"noErrorTruncation": true,
+		"noImplicitAny": true,
+		"resolveJsonModule": true,
+		"strict": true,
+		"target": "esnext",
+		"typeRoots": [
+      "./node_modules/@types",
+    ]
+	},
+
+	"exclude": [
+    "./dist",
+    "node_modules",
+    "./types",
+	]
+}

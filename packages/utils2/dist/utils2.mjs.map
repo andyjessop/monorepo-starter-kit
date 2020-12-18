@@ -1,0 +1,1 @@
+{"version":3,"file":"utils2.mjs","sources":["../../utils/dist/utils.mjs"],"sourcesContent":["const value = true;\n\nconst prop=\"value\";\n\nfunction log(something) {\n    console.log(something);\n}\n\nexport { log, prop, value };\n//# sourceMappingURL=utils.mjs.map\n"],"names":[],"mappings":"AAIA,SAAS,GAAG,CAAC,SAAS,EAAE;AACxB,IAAI,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC;AAC3B;;"}
