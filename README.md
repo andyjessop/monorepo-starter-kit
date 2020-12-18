@@ -24,12 +24,21 @@ cd lerna-rollup-typescript
 npm i
 ```
 
-Get started by linking and building the packages:
+Get started by linking the packages:
 
 ```bash
 ./node_modules/.bin/lerna bootstrap
-./node_modules/.bin/lerna build
 ```
+
+Then you can run all builds/tests/lints from the root with:
+
+```bash
+npm run build
+npm run lint
+npm run test
+```
+
+Or apply those commands to individual packages by running them from the individual package root.
 
 There's not much else to write here. The rest is up to the docs at:
 
