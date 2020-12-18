@@ -3,7 +3,6 @@
   "private": true,
   "devDependencies": {
     "eslint-config-prettier": "^7.0.0",
-    "lerna": "^3.22.1",
-    "rollup-plugin-cleanup": "^3.2.1"
+    "lerna": "^3.22.1"
   }
 }
