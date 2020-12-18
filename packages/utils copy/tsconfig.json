@@ -1,9 +1,0 @@
-{
-  "extends": "../../tsconfig.json",
-  "include": ["../utils2/src/**/*"],
-  "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "../utils2/types",
-    "rootDir": "../utils2"
-  }
-}

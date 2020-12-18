@@ -27,18 +27,24 @@ npm i
 Get started by linking the packages:
 
 ```bash
-./node_modules/.bin/lerna bootstrap
+./node_modules/.bin/lerna bootstrap --hoist
 ```
 
 Then you can run all builds/tests/lints from the root with:
+
+```bash
+./node_modules/.bin/lerna run build
+./node_modules/.bin/lerna run lint
+./node_modules/.bin/lerna run test
+```
+
+Or run them from the roots of individual packages:
 
 ```bash
 npm run build
 npm run lint
 npm run test
 ```
-
-Or apply those commands to individual packages by running them from the individual package root.
 
 There's not much else to write here. The rest is up to the docs at:
 
