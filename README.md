@@ -1,11 +1,11 @@
-# Lerna-Rollup-Typescript Starter Config
+# Monorepo Starter Kit
 
-A minimal config that provides configuration for a multi-package repository with the following features:
+A starter kit that provides configuration for a multi-package monorepo with the following features:
 
-- Bundled with Rollup
-- TypeScript support
-- ESLint (linting, uses the `standard` config with a few extras)
-- Jest (unit tests)
+- Packages bundled with Rollup
+- TypeScript-friendly throughout
+- ESLint (uses the `standard` config with a few extras)
+- Jest for unit tests
 - Prettier (opinionated code formatting)
 - Individual package configs extend base configs
 
